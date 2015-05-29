@@ -28,3 +28,8 @@ mod 'theforeman/git', '1.4.1'
 mod 'jbeard/nfs',
   :git => 'https://github.com/hyclak/jbeard-nfs.git',
   :ref => 'cwood-merge'
+
+# Include example profiles
+mod 'hyclak/profiles',
+  :git => 'https://github.com/hyclak/puppet-profiles.git',
+  :ref => 'production'
