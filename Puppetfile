@@ -8,6 +8,17 @@ mod 'stephenrjohnson/puppet', '1.3.1'
 mod 'puppetlabs/puppetdb', '4.2.0'
 mod 'puppetlabs/inifile', '1.2.0'
 
+# Puppet Master needs r10k and dependencies
+mod 'r10k',
+  :git => 'https://github.com/hyclak/r10k.git',
+  :ref => 'master'
+mod 'puppetlabs/ruby', '0.4.0'
+mod 'puppetlabs/gcc', '0.3.0'
+mod 'croddy/make', '0.0.5'
+mod 'puppetlabs/vcsrepo', '1.3.0'
+mod 'theforeman/git', '1.4.1'
+
+
 mod 'sz-lvmconfig',
   :git => 'https://github.com/hyclak/lvmconfig.git',
   :ref => '5dc0598a9e043145d344c5ffb4b6bd12d0adfdac'
@@ -23,7 +34,6 @@ mod 'puppetlabs/dhcp', '0.3.0'
 mod 'puppetlabs/lvm', '0.4.0'
 mod 'jbeard/portmap', '0.1.9'
 mod 'theforeman/git', '1.4.1'
-mod 'zack/r10k', '2.8.0'
 
 # Pull Request #11 to jbeard6/jbeard-nfs fixes this
 mod 'jbeard/nfs',
