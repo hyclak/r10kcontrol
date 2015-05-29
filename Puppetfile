@@ -23,6 +23,7 @@ mod 'puppetlabs/dhcp', '0.3.0'
 mod 'puppetlabs/lvm', '0.4.0'
 mod 'jbeard/portmap', '0.1.9'
 mod 'theforeman/git', '1.4.1'
+mod 'zack/r10k', '2.8.0'
 
 # Pull Request #11 to jbeard6/jbeard-nfs fixes this
 mod 'jbeard/nfs',
