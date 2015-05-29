@@ -10,7 +10,7 @@ mod 'puppetlabs/inifile', '1.2.0'
 
 mod 'sz-lvmconfig',
   :git => 'https://github.com/hyclak/lvmconfig.git',
-  :ref => 'd7b3312782dcbf11d7137b0ddcdcf8b09c65ee19'
+  :ref => '5dc0598a9e043145d344c5ffb4b6bd12d0adfdac'
 
 # Dependencies
 mod 'puppetlabs/stdlib', '4.5.1'
